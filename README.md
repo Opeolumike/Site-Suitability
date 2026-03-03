@@ -4,7 +4,7 @@ For any housing development to be termed "sustainable", it must be environmental
 
 This study focused on Exeter, a city in Devon, South-West England with a population of 130,700 in 2021 as at the 2021 Census. In 2021, Exeter was home to around 19.8 people per football pitch-sized (approximately 7,140sqm) piece of land, compared with 17.9 in 2011. This area was among the top 25% most densely populated English local authority areas at the last census (How life has changed in Exeter: Census 2021). 
 
-Exeter is a perfect case study for the need to create balance between housing needs and environmental protection. It is well-known for complex topography that ranges from the low-lying and flood-prone valley of the River Exeter to the steep gradients of the northern hills such as Pennsylvania and Exwick
+Exeter is a perfect case study for the need to create balance between housing needs, social equity and environmental protection. It is well-known for complex topography that ranges from the low-lying and flood-prone valley of the River Exeter to the steep gradients of the northern hills such as Pennsylvania and Exwick
 
 ## Files
 
