@@ -6,9 +6,6 @@ This study focused on Exeter, a city in Devon, South-West England with a populat
 
 Exeter is a perfect case study for the need to create balance between housing needs and environmental protection. It is well-known for complex topography that ranges from the low-lying and flood-prone valley of the River Exeter to the steep gradients of the northern hills such as Pennsylvania and Exwick
 
-This repository contains the R code, spatial data, and outputs for a site suitability analysis assessing potential locations for sustainable housing developments in Exeter, Devon, United Kingdom.
-
-
 ## Files
 
 # Data
@@ -17,12 +14,16 @@ This repository contains the R code, spatial data, and outputs for a site suitab
 	The two datasets were sourced from https://environment.data.gov.uk
 - Data of road network, supermarkets, hospitals, and schools were retrieved from the OpenStreetMap through the API using the osmdata R package 
 
-The remaining raster and vector files were exported from the analysis, and they provide the final data for the web app. open the web app at https://site-suitability.michaelopeoluwa.com
+The remaining raster and vector files in the repository were produced from the analysis, and they provide the final data for the web app. 
 
-# Script
+# Scripts
 - The "Site_Suitability_Analysis" is the R script used for data processing, analysis, and map generation.
 
-## How to Run the Script
+- The Four R scripts (App.R, Server_Function.R, Glibal.R, UI.R), also written in R, are the scripts for the web app.
+
+Open the web app at https://site-suitability.michaelopeoluwa.com. It could take some seconds to load.
+
+## How to Replicate the Analysis 
 - Start RStudio and set the project folder as your working directory.
 - Install the required packages by running this in the console:
     ```r
