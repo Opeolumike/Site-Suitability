@@ -17,6 +17,8 @@ This repository contains the R code, spatial data, and outputs for a site suitab
 	The two datasets were sourced from https://environment.data.gov.uk
 - Data of road network, supermarkets, hospitals, and schools were retrieved from the OpenStreetMap through the API using the osmdata R package 
 
+The remaining raster and vector files were exported from the analysis, and they provide the final data for the web app. open the web app at https://site-suitability.michaelopeoluwa.com
+
 # Script
 - The "Site_Suitability_Analysis" is the R script used for data processing, analysis, and map generation.
 
