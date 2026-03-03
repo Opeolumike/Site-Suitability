@@ -19,7 +19,7 @@ The remaining raster and vector files in the repository were produced from the a
 # Scripts
 - The "Site_Suitability_Analysis" is the R script used for data processing, analysis, and map generation.
 
-- The Four R scripts (App.R, Server_Function.R, Glibal.R, UI.R), also written in R, are the scripts for the web app.
+- The Four R scripts (App.R, Server_Function.R, Global.R, UI.R), also written in R, are the scripts for the web app.
 
 Open the web app at https://site-suitability.michaelopeoluwa.com. It could take some seconds to load.
 
