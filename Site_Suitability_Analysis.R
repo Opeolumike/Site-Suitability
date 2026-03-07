@@ -93,8 +93,8 @@ if(!is.null(schoolsVector)) schoolsVector <- schoolsVector %>% filter(!is.na(nam
 marketsVector <- getOSMFeature(bboxObj, "shop", c("supermarket", "convenience"), "polygons")
 if(!is.null(marketsVector)) marketsVector <- marketsVector %>% filter(!is.na(name))
 
-healthVector <- getOSMFeature(bboxObj, "amenity", c("doctors", "clinic", "hospital", "pharmacy"), "polygons")
-if(!is.null(healthVector)) healthVector <- healthVector %>% filter(!is.na(name))
+healthcareVector <- getOSMFeature(bboxObj, "amenity", c("doctors", "clinic", "hospital", "pharmacy"), "polygons")
+if(!is.null(healthcareVector)) healthcareVector <- healthcareVector %>% filter(!is.na(name))
 
 # Aggregate the DTM from 1m to 10m resolution to speed up processing.
 elevationRasterLowRes <- aggregate(elevationRaster, fact = 10, fun = mean)
